@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.ladm_u3_mapeo_empresas_jorge_alberto_perez_soto.ui.home.InicioFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_area"
+        android:name="com.example.ladm_u3_mapeo_empresas_jorge_alberto_perez_soto.ui.dashboard.AreaFragment"
+        android:label="Area"
+        tools:layout="@layout/fragment_area" />
+
+    <fragment
+        android:id="@+id/navigation_consulta"
+        android:name="com.example.ladm_u3_mapeo_empresas_jorge_alberto_perez_soto.ui.notifications.ConsultaFragment"
+        android:label="Consultas"
+        tools:layout="@layout/fragment_consulta" />
+</navigation>
